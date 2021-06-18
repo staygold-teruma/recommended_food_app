@@ -21,8 +21,8 @@ class FoodsController < ApplicationController
   def edit; end
 
   def update
-    # @food.update!(food_params)
-    # redirect_to @food
+    @food.update!(food_params)
+    redirect_to @food
   end
 
   def destroy
