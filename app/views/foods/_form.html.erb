@@ -7,6 +7,10 @@
     <%= f.label :image %>
     <%= f.file_field :image, accept:"image/jpg, image/jpeg, image/gif, image/png" %>
   </p>
+  <label>
+    <%= f.check_box :remove_image %>
+    画像を削除する
+  </label>
   <p>
     <%= f.label :comment %>
     <%= f.text_area :comment %>
