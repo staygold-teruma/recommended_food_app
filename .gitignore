@@ -9,6 +9,7 @@
 
 .DS_Store
 /vendor/bundle
+/public/uploads/
 
 
 # Ignore all logfiles and tempfiles.
